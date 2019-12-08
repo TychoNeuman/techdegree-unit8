@@ -1,0 +1,109 @@
+* {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #FCFCFC;
+}
+
+p {
+    margin: 3px;
+}
+
+hr {
+    max-width: 90%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.employee-card {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #868C90;
+    border-radius: 5px;
+    flex-grow: 1;
+    min-width: 30%;
+    max-width: 30%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.employee-card p {
+    color: #868C90;
+}
+
+.employee-card:hover {
+    background-color: beige;
+}
+
+.employee-card-full {
+    position: relative;
+    border-radius: 10px;
+    height: 600px;
+    width: 450px;
+    background-color: #fff;
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+    opacity: 1;
+    text-align: center;
+}
+
+.employee-card-full > p {
+    color: #868C90;
+    margin: 15px;
+}
+
+.profile-pic {
+    border-radius: 100px;
+    max-width: 100px;
+    display: block;
+}
+
+.employee-info {
+    margin-left: 15px;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+}
+
+.profile-pic-large {
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+    border-radius: 100px;
+}
+
+#close {
+    font-weight: bolder;
+    margin: 10px 20px;
+    font-size: 20px;
+    width: 100%;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+#name {
+    color: black;
+    font-weight: bolder;
+}
+
+#title {
+    margin: 0 25px 25px 25px;
+    padding-top: 10px;
+}
+
+#employee-name-full {
+    font-weight: bolder;
+}
